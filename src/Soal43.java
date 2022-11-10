@@ -7,6 +7,6 @@ public class Soal43 {
             System.out.println();
         }
 
-    
+
     }
 }
