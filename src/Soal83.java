@@ -5,7 +5,7 @@ public class Soal83 {
                 if( i == j ) {
                     System.out.print("* ");
                 }else {
-                    System.out.print("o ");
+                    System.out.print("0 ");
                 }
 
             }
