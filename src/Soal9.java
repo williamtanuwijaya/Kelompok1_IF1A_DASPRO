@@ -1,6 +1,8 @@
 public class Soal9 {
     public static void main(String[] args) {
-        for(char i='A';i<='Z';i++) {
+        char i = '@';
+        while(i<'Z') {
+            i++;
 	    System.out.print(i+" ");
       }
     }

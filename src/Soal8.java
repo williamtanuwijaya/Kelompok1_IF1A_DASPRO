@@ -8,8 +8,9 @@ public class Soal8 {
 	    batasbawah=Integer.parseInt(br.readLine());
 	    System.out.print("Masukan batas atas\t= ");
 	    batasatas=Integer.parseInt(br.readLine());
-
-	    for(int i=batasbawah;i<=batasatas;i++) {
+		int i=batasbawah;
+	    while(i<=batasatas) {
+			i++;
 		    if(i%25==0) {
 			System.out.println(i);
 		   }
