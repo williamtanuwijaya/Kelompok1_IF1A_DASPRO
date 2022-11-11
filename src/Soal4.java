@@ -4,7 +4,7 @@ public class Soal4 {
         while( i<120) {
 			i++;
 		if(i%2==1) {
-			System.out.println(i + " ");
+			System.out.println(i);
 		}
 	  }
     }
