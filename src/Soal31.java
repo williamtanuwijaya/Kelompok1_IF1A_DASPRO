@@ -1,9 +1,10 @@
 public class Soal31 {
     public static void main(String[] args) {
-        for(int i=1;i<=512;i=i*2) {
+        int i=1;
+        while(i<=512) {
             System.out.print(i + " ");
             if (i == 512)break;
-
+            i=i*2;
         }
     }
 }
